@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-
-@font-face {
-  src: url('./assets/fonts/HelveticaNeue-Medium.otf');
-  font-family: 'Helvetica Neue';
-}
+@import "./fonts.scss";
 
 *,
 *:after,
@@ -39,6 +34,7 @@ body {
   background-color: var(--background-primary);
   font-family: var(--font-primary);
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 img,

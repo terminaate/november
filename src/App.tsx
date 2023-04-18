@@ -1,5 +1,13 @@
+import GlobalLoader from '@/components/GlobalLoader';
+import Routing from './routing';
+
 const App = () => {
-  return <div>Hello world</div>;
+  return (
+    <>
+      <GlobalLoader />
+      <Routing />
+    </>
+  );
 };
 
 export default App;
